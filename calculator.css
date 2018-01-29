@@ -1,0 +1,72 @@
+body{
+  background-color: #ECD4B2;
+}
+
+#base {
+  background-color: #84B2A8;
+  width: 30vw;
+  height: 80vh;
+  border-radius: 1em;
+  margin: 0 auto;
+  margin-top: 3em;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+#screen {
+  background-color: #E59E42;
+  border-radius: 1em;
+  border: 0.5em solid #895021;
+  height: 4em;
+  width: 75%;
+  display: inline-block;
+  margin-top: 1em;
+  margin-right: 4em;
+}
+
+#input {
+  color: #895021;
+  font-size: 2.5em;
+  text-align: right;
+  overflow: hidden;
+}
+
+#equation {
+  color: #895021;
+  font-size: 0.7em;
+  text-align: right;
+  overflow: hidden;
+  }
+
+#left{
+  display: inline-block;
+  width: 62%;
+}
+
+.button {
+  border: 0.2em solid #895021;
+  border-radius: 0.5em;
+  text-align: center;
+  font-size: 1.5em;
+  color: #895021;
+  font-weight: bold;
+  float: left;
+  margin: 0.75em 0.75em 0.5em 0.75em;
+  padding-top: 0.5em;
+  background-color: #ECD4B2;
+  }
+  
+.small-button{
+  width: 2em;
+  height: 2em;
+}
+  
+.wide-button{
+  width: 6em;
+  height: 2em;
+  }
+  
+.tall-button{
+  width: 2em;
+  height: 6em;
+  }
